@@ -48,3 +48,14 @@ else {
     }
     console.log( ` EL NÚMERO BASE ES: ${base} Y SU EXPONENTE ES: ${exponente} Y EL RESULTADO ES: ${resultado} ` );
 }
+
+
+
+/* 
+git add
+git commit -m "hombre araña "
+git push
+
+
+
+*/ 
