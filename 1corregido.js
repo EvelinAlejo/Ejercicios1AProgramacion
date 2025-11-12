@@ -6,7 +6,6 @@ c. * El exponente sea negativo, el resultado es 1/potencia con el exponente
 positivo.  */
 
 const prompt = require("prompt-sync")();
-
 // Aquí se va a ingresar el numero que queremos elevar
 let base = parseInt(prompt("INGRESA EL NÚMERO BASE QUE SE ELEVARA: "));
 let exponente = parseInt(prompt("INGRESA EL NÚMERO QUE QUIERES QUE SEA EL EXPONENTE: "));
@@ -32,7 +31,6 @@ else if (exponente < 0) { // EXPONENTE MENOR A CERO
         // i=1: resultadoPositivo=3*3=9
         // i=2: ya no entra, resultado final=9
     }
-    
     resultado = 1 / resultadoPositivo; // Aplicamos la fórmula para exponente negativo
     console.log( ` ${base} ELEVADO A: ${exponente} ES: 1/${base}^${exponentepositivo} = ${resultado} ` );
 } 
@@ -52,7 +50,7 @@ else {
 
 
 /* 
-git add
+git add .
 git commit -m "hombre araña "
 git push
 

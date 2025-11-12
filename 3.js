@@ -22,9 +22,6 @@ let COSTOcD=95;
 // ALUMNOcd=("30, 40")
 let autobusPAGO= 4000;
 
-
-
-
 if(saberC>=alumnoA){ // mayor o igual a 100
     console.log(  `   EL COSTO POR ALUMNO ES DE : ${COSTOa}`)
 
